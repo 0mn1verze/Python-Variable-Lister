@@ -1,5 +1,5 @@
 # Python Variable Lister
-A project in python using [Abstract Syntax Tree](https://docs.python.org/3/library/ast.html) to guess they type of variables and generate a description for each variable
+A project in python using [Abstract Syntax Tree](https://docs.python.org/3/library/ast.html) to guess they type of variables and generate a description for each variable.
 
 ## Features
 - Finds every file in the directory tree
