@@ -1,0 +1,234 @@
+variable name,type,scope,description,line,function
+ERRORLOG,str,global,,52, varlister v2.2.py
+DEFAULTOVERRIDES,dict,global,,54, varlister v2.2.py
+OPERATORS,list,global,,56, varlister v2.2.py
+COMPREHENSIONS,list,global,,58, varlister v2.2.py
+IGNORE_GENERATED,bool,global,,77, varlister v2.2.py
+exists,self.DoesVarExist(),local,,503, varlister v2.2.py ASTVisitor ActionVar
+varobj,Variable(),local,,506, varlister v2.2.py ASTVisitor ActionVar
+scopename,str,local,,143, varlister v2.2.py ASTVisitor AddScope
+self.vardict[].functions,set,local,,527, varlister v2.2.py ASTVisitor AddUsingFunctions
+functoadd,str,local,,530, varlister v2.2.py ASTVisitor AddUsingFunctions
+functionname,self.scopetree[],local,,465, varlister v2.2.py ASTVisitor AssignFunctionReturnType
+self.funcdict[].returntype,self.GetType(),local,,470, varlister v2.2.py ASTVisitor AssignFunctionReturnType
+funcname,str,local,,180, varlister v2.2.py ASTVisitor DoesFuncExist
+varname,str,local,,172, varlister v2.2.py ASTVisitor DoesVarExist
+ids,List,local,,680, varlister v2.2.py ASTVisitor GetAssignedIDs
+values,List,local,,692, varlister v2.2.py ASTVisitor GetAssignedValues
+limit,int,local,,692, varlister v2.2.py ASTVisitor GetAssignedValues
+start,int,local,,692, varlister v2.2.py ASTVisitor GetAssignedValues
+lis,list,local,,710, varlister v2.2.py ASTVisitor GetAssignedValues
+scopetree,List,local,,134, varlister v2.2.py ASTVisitor GetScopeTreeString
+output,str,local,,138, varlister v2.2.py ASTVisitor GetScopeTreeString
+typename,str,local,,207, varlister v2.2.py ASTVisitor GetType
+functype,self.funcdict[].returntype,local,,234, varlister v2.2.py ASTVisitor GetType
+left,self.GetType(),local,,248, varlister v2.2.py ASTVisitor GetType
+right,self.GetType(),local,,249, varlister v2.2.py ASTVisitor GetType
+names,list,local,,612, varlister v2.2.py ASTVisitor HandleOps
+currenttype,self.vardict[].type,local,,763, varlister v2.2.py ASTVisitor HasNoType
+var,str,local,,759, varlister v2.2.py ASTVisitor HasNoType
+defaults,list,local,,369, varlister v2.2.py ASTVisitor ProcessFuncArgs
+argsusingdefaults,List,local,,371, varlister v2.2.py ASTVisitor ProcessFuncArgs
+varobject,Variable(),local,,383, varlister v2.2.py ASTVisitor ProcessFuncArgs
+varobject.type,self.GetName(),local,,391, varlister v2.2.py ASTVisitor ProcessFuncArgs
+self.scopetree,List,local,,122, varlister v2.2.py ASTVisitor __init__
+self.vardict,Dict,local,,126, varlister v2.2.py ASTVisitor __init__
+self.funcdict,Dict,local,,128, varlister v2.2.py ASTVisitor __init__
+self.scopetreeasstring,str,local,,"124, 153, 162"," varlister v2.2.py ASTVisitor __init__,  varlister v2.2.py ASTVisitor AddScope,  varlister v2.2.py ASTVisitor remove_Scope"
+self.logtext,str,local,,"130, 882"," varlister v2.2.py ASTVisitor __init__,  varlister v2.2.py ASTVisitor HandleAnyAssignment"
+self.errors,int,local,,"132, 887"," varlister v2.2.py ASTVisitor __init__,  varlister v2.2.py ASTVisitor HandleAnyAssignment"
+valuelist,list,local,,667, varlister v2.2.py ASTVisitor getIDsAndValueList
+name,self.GetName(),local,,773, varlister v2.2.py ASTVisitor visit_AnnAssign
+value,node.value,local,,774, varlister v2.2.py ASTVisitor visit_AnnAssign
+annotation,self.GetName(),local,,779, varlister v2.2.py ASTVisitor visit_AnnAssign
+assignmentname,unknown,local,,732, varlister v2.2.py ASTVisitor visit_Assign
+valuetype,self.GetType(),local,,742, varlister v2.2.py ASTVisitor visit_Assign
+self.vardict[].type,self.GetType(),local,,"736, 756, 781"," varlister v2.2.py ASTVisitor visit_Assign,  varlister v2.2.py ASTVisitor visit_AugAssign,  varlister v2.2.py ASTVisitor visit_AnnAssign"
+val,node.value,local,,752, varlister v2.2.py ASTVisitor visit_AugAssign
+funcobj,Func(),local,,337, varlister v2.2.py ASTVisitor visit_FunctionDef
+funcobj.returntype,self.GetName(),local,,340, varlister v2.2.py ASTVisitor visit_FunctionDef
+name,str,local,,102, varlister v2.2.py Func __init__
+returntype,str,local,,103, varlister v2.2.py Func __init__
+self.name,str,local,,109, varlister v2.2.py Func __init__
+self.returntype,str,local,,110, varlister v2.2.py Func __init__
+scope,str,local,,83, varlister v2.2.py Variable __init__
+vartype,str,local,,85, varlister v2.2.py Variable __init__
+functions,Set,local,,86, varlister v2.2.py Variable __init__
+self.scope,str,local,,95, varlister v2.2.py Variable __init__
+self.functions,Set,local,,96, varlister v2.2.py Variable __init__
+self.name,str,local,,"93, 196"," varlister v2.2.py Variable __init__,  varlister2.py Variable __init__"
+self.type,str,local,,"94, 197"," varlister v2.2.py Variable __init__,  varlister2.py Variable __init__"
+start,time.time(),local,,916, varlister v2.2.py main
+errortext,str,local,,917, varlister v2.2.py main
+source,str,local,,921, varlister v2.2.py main
+totalerrors,int,local,,922, varlister v2.2.py main
+tree,ast.parse(),local,,937, varlister v2.2.py main
+relativepath,f.relative_to(),local,,942, varlister v2.2.py main
+rows,int,local,,955, varlister v2.2.py main
+cols,int,local,,956, varlister v2.2.py main
+namecell,table.cell(),local,,959, varlister v2.2.py main
+namecell.text,str,local,,960, varlister v2.2.py main
+typecell,table.cell(),local,,961, varlister v2.2.py main
+typecell.text,str,local,,962, varlister v2.2.py main
+scopecell,table.cell(),local,,963, varlister v2.2.py main
+scopecell.text,str,local,,964, varlister v2.2.py main
+desccell,table.cell(),local,,965, varlister v2.2.py main
+desccell.text,str,local,,966, varlister v2.2.py main
+appearcell,table.cell(),local,,967, varlister v2.2.py main
+appearcell.text,str,local,,968, varlister v2.2.py main
+tableindex,int,local,,970, varlister v2.2.py main
+checktype,var.type,local,,972, varlister v2.2.py main
+var.type,str,local,,982, varlister v2.2.py main
+var.name,var.name[],local,,999, varlister v2.2.py main
+attributes,vars(),local,,1000, varlister v2.2.py main
+realcolnum,int,local,,1001, varlister v2.2.py main
+cell,table.cell(),local,,1005, varlister v2.2.py main
+outval,unknown,local,,1006, varlister v2.2.py main
+vallist,List,local,,1009, varlister v2.2.py main
+cell.text,str,local,,1013, varlister v2.2.py main
+end,time.time(),local,,1026, varlister v2.2.py main
+elapsed,time.time(),local,,1027, varlister v2.2.py main
+a,unknown,global,,445, varlister.py
+vars,defaultdict(),local,,11, varlister.py Scope
+self.name,unknown,local,,14, varlister.py Scope __init__
+self.children,list,local,,15, varlister.py Scope __init__
+self.vars,defaultdict(),local,,16, varlister.py Scope __init__
+self.function,bool,local,,17, varlister.py Scope __init__
+self.classname,NoneType,local,,18, varlister.py Scope __init__
+self.parent,NoneType,local,,19, varlister.py Scope __init__
+function,bool,local,,24, varlister.py Scope add
+classname,NoneType,local,,24, varlister.py Scope add
+new_scope,Scope(),local,,25, varlister.py Scope add
+new_scope.parent,unknown,local,,27, varlister.py Scope add
+new_scope.classname,NoneType,local,,29, varlister.py Scope add
+location,str,local,,53, varlister.py Scope get_full_var_list
+scope,str,local,,54, varlister.py Scope get_full_var_list
+varname,str,local,,60, varlister.py Scope get_full_var_list
+indent,int,local,,34, varlister.py Scope print
+padding,str,local,,35, varlister.py Scope print
+vartype,NoneType,local,,90, varlister.py Scope update_var
+lineno,NoneType,local,,90, varlister.py Scope update_var
+self.global_scope,unknown,local,,136, varlister.py VarLister __init__
+self.scope,unknown,local,,"135, 139, 156"," varlister.py VarLister __init__,  varlister.py VarLister visit_ClassDef,  varlister.py VarLister visit_FunctionDef"
+tuple_or_list,tuple,local,,332, varlister.py VarLister analyze_var
+v,val.elts[],local,,343, varlister.py VarLister analyze_var
+is_subscript,bool,local,,212, varlister.py VarLister get_attr_name
+ending,str,local,,215, varlister.py VarLister get_attr_name
+function,var.func,local,,229, varlister.py VarLister get_func_name
+returntype,self.global_scope.find_return_type(),local,,235, varlister.py VarLister get_func_name
+type_priority,list,local,,248, varlister.py VarLister get_prefered_type
+types,self.get_binop_types(),local,,279, varlister.py VarLister get_var_type
+var,node.value,local,,302, varlister.py VarLister update_subscript_type
+names,self.get_binop_names(),local,,316, varlister.py VarLister update_subscript_type
+slice,node.slice,local,,303, varlister.py VarLister update_subscript_type
+vartype,NoneType,local,,369, varlister.py VarLister visit_AnnAssign
+name,self.get_attr_name(),local,,377, varlister.py VarLister visit_AnnAssign
+ann,node.annotation,local,,368, varlister.py VarLister visit_AnnAssign
+target,node.target,local,,382, varlister.py VarLister visit_AugAssign
+val,node.value,local,,383, varlister.py VarLister visit_AugAssign
+default_idx,len(),local,,164, varlister.py VarLister visit_FunctionDef
+return_value,node.body[].value,local,,178, varlister.py VarLister visit_FunctionDef
+document,Document(),local,,426, varlister.py main
+files,list,local,,394, varlister.py main
+table,document.add_table(),local,,431, varlister.py main
+table.style,str,local,,432, varlister.py main
+use_csv,bool,local,,391, varlister.py main
+scope,Scope(),local,,398, varlister.py main
+parsed,ast.parse(),local,,402, varlister.py main
+current_scope,scope.add(),local,,403, varlister.py main
+varlister,VarLister(),local,,404, varlister.py main
+fields,list,local,,406, varlister.py main
+filename,str,local,,409, varlister.py main
+vars,list,local,,412, varlister.py main
+Scope.vars,unknown,local,,413, varlister.py main
+csvwriter,csv.writer(),local,,420, varlister.py main
+varlist,list,local,,429, varlister.py main
+table.cell().text,unknown,local,,434, varlister.py main
+fielddata,str,local,,438, varlister.py main
+OUTPUTNAME,str,global,,25, varlister2.py
+CONTAINERS,list,global,,42, varlister2.py
+IGNORE,list,global,,29, varlister2.py
+visitor,Visitor(),global,,757, varlister2.py
+OUTPUTPATH,os.getcwd(),global,,26, varlister2.py
+USER_DEFINED_RETURN_TYPES,dict,global,,32, varlister2.py
+HEADING,list,global,,39, varlister2.py
+DEFINED_TYPES,dict,global,,45, varlister2.py
+TYPE_PRIORITY,list,global,,52, varlister2.py
+DEFINED_OPERATORS,dict,global,,56, varlister2.py
+self.name,str,local,,70, varlister2.py Node __init__
+self.func,str,local,,71, varlister2.py Node __init__
+self.cls,str,local,,72, varlister2.py Node __init__
+self.file,Path,local,,73, varlister2.py Node __init__
+self.parent,object,local,,75, varlister2.py Node __init__
+self.children,list,local,,76, varlister2.py Node __init__
+self.var_list,list,local,,77, varlister2.py Node __init__
+syntax,str,local,,79, varlister2.py Node __str__
+markers,list,local,,79, varlister2.py Node __str__
+empty_str,str,local,,90, varlister2.py Node __str__
+connect_str,str,local,,91, varlister2.py Node __str__
+level,int,local,,94, varlister2.py Node __str__
+marker,str,local,,98, varlister2.py Node __str__
+ret,str,local,,102, varlister2.py Node __str__
+var_marker,marker.replace(),local,,107, varlister2.py Node __str__
+isLast,bool,local,,115, varlister2.py Node __str__
+d,bool,local,,97, varlister2.py Node __str__ mapper
+func,str,local,,120, varlister2.py Node add
+cls,str,local,,120, varlister2.py Node add
+file,Path,local,,120, varlister2.py Node add
+new_node,Node(),local,,133, varlister2.py Node add
+new_node.parent,unknown,local,,135, varlister2.py Node add
+type,str,local,,138, varlister2.py Node add_var
+lineno,int,local,,138, varlister2.py Node add_var
+name,str,local,,170, varlister2.py Node get_return_type
+recurse,bool,local,,148, varlister2.py Node get_var
+var,child.get_var(),local,,165, varlister2.py Node get_var
+varlist,defaultdict(),local,,193, varlister2.py Variable
+name,str,local,,195, varlister2.py Variable __init__
+node,Node,local,,195, varlister2.py Variable __init__
+lineno,int,local,,195, varlister2.py Variable __init__
+type,str,local,,195, varlister2.py Variable __init__
+self.lineno,int,local,,198, varlister2.py Variable __init__
+c,str,local,,199, varlister2.py Variable __init__
+f,str,local,,200, varlister2.py Variable __init__
+self.locations,List,local,,201, varlister2.py Variable __init__
+self.node,Node,local,,202, varlister2.py Variable __init__
+self.global_node,Node(),local,,216, varlister2.py Visitor __init__
+self.file_node,NoneType,local,,"218, 692"," varlister2.py Visitor __init__,  varlister2.py Visitor parse_file"
+self.curr_class,NoneType,local,,"219, 507"," varlister2.py Visitor __init__,  varlister2.py Visitor visit_ClassDef"
+self.curr_node,self.global_node,local,,"217, 505, 519, 693"," varlister2.py Visitor __init__,  varlister2.py Visitor visit_ClassDef,  varlister2.py Visitor visit_FunctionDef,  varlister2.py Visitor parse_file"
+idx,unknown,local,,742, varlister2.py Visitor create_document
+document,docx.Document(),local,,717, varlister2.py Visitor create_document
+varlist,Variable.varlist,local,,721, varlister2.py Visitor create_document
+rows,int,local,,728, varlister2.py Visitor create_document
+cols,len(),local,,729, varlister2.py Visitor create_document
+table,document.add_table(),local,,730, varlister2.py Visitor create_document
+table.style,str,local,,731, varlister2.py Visitor create_document
+cells,list,local,,732, varlister2.py Visitor create_document
+cells[].text,unknown,local,,736, varlister2.py Visitor create_document
+node,var.node,local,,741, varlister2.py Visitor create_document
+path,str,local,,752, varlister2.py Visitor create_document
+attr,node.attr,local,,261, varlister2.py Visitor get_attr_ID
+func,node.func,local,,284, varlister2.py Visitor get_call_ID
+include_subscript,bool,local,,288, varlister2.py Visitor get_subscript_ID
+val,node.value,local,,298, varlister2.py Visitor get_subscript_ID
+subscript,str,local,,302, varlister2.py Visitor get_subscript_ID
+code,name.replace(),local,,342, varlister2.py Visitor get_type
+types,list,local,,357, varlister2.py Visitor get_type
+var_type_idx,int,local,,361, varlister2.py Visitor get_type
+c,str,local,,415, varlister2.py Visitor get_var
+f,str,local,,416, varlister2.py Visitor get_var
+args,node.args.args,local,,453, varlister2.py Visitor handle_args
+defaults,node.args.defaults,local,,454, varlister2.py Visitor handle_args
+kwargs,node.args.kwonlyargs,local,,457, varlister2.py Visitor handle_args
+kwdefaults,node.args.kw_defaults,local,,458, varlister2.py Visitor handle_args
+arg_type,self.get_ann_type(),local,,465, varlister2.py Visitor handle_args
+files,list,local,,706, varlister2.py Visitor parse_cwd
+file,Path,local,,685, varlister2.py Visitor parse_file
+compilation,ast.parse(),local,,698, varlister2.py Visitor parse_file
+var,self.get_var(),local,,632, varlister2.py Visitor visit_AnnAssign
+ann,node.annotation,local,,629, varlister2.py Visitor visit_AnnAssign
+names,self.get_ID(),local,,661, varlister2.py Visitor visit_For
+ann_type,self.get_ann_type(),local,,525, varlister2.py Visitor visit_FunctionDef
+name,self.get_ID(),local,,676, varlister2.py Visitor visit_With
+var_type,self.get_type(),local,,677, varlister2.py Visitor visit_With
+withitem,node.items[],local,,675, varlister2.py Visitor visit_With
